@@ -9,32 +9,32 @@
     <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
                 
 </head>
-<body>
-    <script src="index.js"></script>
+<body>    
     <div class="container">
         <div>
             <h3>HOME</h3>
             <div class="black-box">
-                <p id="#score-home">0</p>
+                <p id="score-home">0</p>
             </div>
             <div class="buttons">
-                <img src="img/plus-one-point.png" alt="Plus one point" id="home-one-pt">
-                <img src="img/plus-two-point.png" alt="Plus two point" id="home-two-pt">
-                <img src="img/plus-three-point.png" alt="Plus three point" id="home-three-pt">
+                <img src="img/plus-one-point.png" alt="Plus one point" onclick="homeAddOne()">
+                <img src="img/plus-two-point.png" alt="Plus two point" onclick="homeAddTwo()">
+                <img src="img/plus-three-point.png" alt="Plus three point" onclick="homeAddThree()">
             </div>
         </div>
         <div>
             <h3>GUEST</h3>
             <div class="black-box">
-                <p id="#score-guest">0</p>
+                <p id="score-guest">0</p>
             </div>
             <div class="buttons">
-                <img src="img/plus-one-point.png" alt="Plus one point" id="guest-one-pt">
-                <img src="img/plus-two-point.png" alt="Plus two point" id="guest-two-pt">
-                <img src="img/plus-three-point.png" alt="Plus three point" id="guest-three-pt">
+                <img src="img/plus-one-point.png" alt="Plus one point" onclick="guestAddOne()">
+                <img src="img/plus-two-point.png" alt="Plus two point" onclick="guestAddTwo()">
+                <img src="img/plus-three-point.png" alt="Plus three point" onclick="guestAddThree()">
             </div>
         </div>
     </div>
+    <script src="index.js"></script>
     
 </body>
 </html>
