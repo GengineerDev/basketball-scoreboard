@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("font/CursedTimerULiL.woff");
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 36px;
@@ -16,7 +21,6 @@ body {
     display: flex;
     justify-content: space-around;
     padding-top: 68px;
-
 }
 
 .black-box {
